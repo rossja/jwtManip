@@ -51,11 +51,11 @@ def getHeaders(token):
 def main(argv):
     if method == 'encode':
         # take the JSON data and convert it to JWT
-        print( createToken(indata, 'secret', 'HS256') )
+        print("\nToken:\n" + createToken(indata, 'secret', 'HS256') )
 
     elif method == 'decode':
         claims = getClaims(indata)
-        print( formatJson(claims) )
+        print("\nJSON Claims:\n" + formatJson(claims) )
 
 if __name__ == "__main__":
     #main([method, indata])
