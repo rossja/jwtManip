@@ -26,10 +26,22 @@ The script requires two parameters:
   "iat": 1443213069,
   "exp": 1443216669
 }'
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwiaWF0IjoxNDQzMjEzMDY5LCJwYXNzd29yZCI6InVzcnBhc3MiLCJpZCI6IjU2MDM2ZThjMTg1YTlhMDQyMjM5YmVjYiIsImV4cCI6MTQ0MzIxNjY2OX0.dMwrvCeRSRRwJ5a8NvN0-ema-RJiBtHLXpCF-cGhVRQ
+
 ```
 - decode
   - Requires the supplied input data to be a JSON Web Token string.
   - example usage:
 ```
 ./jwtManip.py decode eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwiaWF0IjoxNDQzMjEzMDY5LCJwYXNzd29yZCI6InVzcnBhc3MiLCJpZCI6IjU2MDM2ZThjMTg1YTlhMDQyMjM5YmVjYiIsImV4cCI6MTQ0MzIxNjY2OX0.dMwrvCeRSRRwJ5a8NvN0-ema-RJiBtHLXpCF-cGhVRQ
+
+{
+    "exp": 1443216669,
+    "iat": 1443213069,
+    "id": "56036e8c185a9a042239becb",
+    "password": "usrpass",
+    "username": "testuser"
+}
+
 ```
