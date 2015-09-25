@@ -21,7 +21,7 @@ The script requires two parameters:
   "exp": 1443216669
 }'
 ```
-1. decode
+2. decode
   - Requires the supplied input data to be a JSON Web Token string.
   - example usage:
 ```
