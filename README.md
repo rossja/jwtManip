@@ -2,8 +2,10 @@
 A Burp extension to manage decoding/encoding JSON web tokens
 
 ## Status
-The script works just fine on Linux, as a stand-alone tool. I'm currently
-working on getting it integrated with Burp (eg. "send to JWTManip" functionality).
+The script works just fine on Linux, as a stand-alone tool. It presumably works
+on Windows also, but I've not tested it there.
+
+I'm currently working on getting it integrated with Burp (eg. "send to JWTManip" functionality).
 
 ## Useage
 *jwtManip.py* can accept a JSON string or a JSON Web Token as input.
