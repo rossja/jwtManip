@@ -9,7 +9,7 @@ The script requires two parameters:
 1. The data to pass
 
 ### Methods
-1. encode
+- encode
   - Requires the supplied input data to be a JSON string.
   - example usage:
 ```
@@ -21,7 +21,7 @@ The script requires two parameters:
   "exp": 1443216669
 }'
 ```
-2. decode
+- decode
   - Requires the supplied input data to be a JSON Web Token string.
   - example usage:
 ```
