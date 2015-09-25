@@ -3,7 +3,7 @@ A Burp extension to manage decoding/encoding JSON web tokens
 
 ## Useage
 jwtManip.py can accept a JSON string or a JSON Web Token as input.
-The script requires 2 parameters:
+The script requires two parameters:
 
 1. The method to use
 1. The data to pass
