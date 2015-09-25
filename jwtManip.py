@@ -24,10 +24,10 @@ options = {
 }
 
 # sample JSON Web Token
-jwtString = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI1NjAzNjExNjI2MTA0MzA2MzlhNmE4Y2MiLCJ1c2VybmFtZSI6InRlc3R1c2VyIiwicGFzc3dvcmQiOiJ1c3JwYXNzIiwiYWRtaW4iOnRydWUsIl9fdiI6MH0.YbDJNhfRtbmrEaBf27i9K_tR2o51ydaT1VmWRPw1dtg'
+jwtString = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjU2MDM2ZThjMTg1YTlhMDQyMjM5YmVjYiIsInVzZXJuYW1lIjoidGVzdHVzZXIiLCJwYXNzd29yZCI6InVzcnBhc3MiLCJpYXQiOjE0NDMyMTMwNjksImV4cCI6MTQ0MzIxNjY2OX0.ZuFs0pb37pQ98--IKlxj-4F3voM9wRFj-2HoZK4NqYU'
 
 # sample JSON strings to convert to JWT
-jsonPayload = '{ "_id": "560361162610430639a6a8cc", "username": "testuser", "password": "usrpass", "admin": true, "__v": 0 }';
+jsonPayload = '{ "id": "56036e8c185a9a042239becb", "username": "testuser", "password": "usrpass", "iat": 1443213069, "exp": 1443216669 }'
 
 # takes in a JSON string, dumps it in pretty format
 def formatJson(jsonData):
